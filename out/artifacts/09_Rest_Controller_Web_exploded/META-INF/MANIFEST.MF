@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Dhanujaya(Dhanu)
+Build-Jdk: 17.0.10
+Implementation-Title: O9_Rest_Controller
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: lk.ijse
+Main-Class: ${start-class}
+
