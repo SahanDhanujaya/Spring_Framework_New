@@ -10,9 +10,11 @@
         <module name="09_Rest_Controller" />
         <module name="08_Spring_Web_MVC" />
         <module name="04_FullModeVsLightMode" />
+        <module name="Practice" />
         <module name="10_Back_End" />
         <module name="05_Configuration" />
         <module name="01_Spring_Core" />
+        <module name="11_Front_End" />
         <module name="02_Spring_Bean_Life_Cycle" />
         <module name="06_Runtime_Value_Injection" />
         <module name="03_Spring_DI" />

@@ -15,12 +15,21 @@ public class CustomerController {
     public List<CustomerDTO> getAll(){
         return customers;
     }
-    @PostMapping
+    @PostMapping(path = "save" )
     public CustomerDTO saveCustomer(@RequestBody CustomerDTO customerDTO){
         customers.add(customerDTO);
         return customerDTO;
     }
-    @PutMapping
+    @GetMapping(path = "getCustomer/{id}")
+    public CustomerDTO getCustomer(@PathVariable("id") int id){
+        for (CustomerDTO customerDTO : customers){
+            if (customerDTO.getId()==id){
+                return customerDTO;
+            }
+        }
+        return null;
+    }
+    @PutMapping(path = "update")
     public CustomerDTO updateCustomer(@RequestBody CustomerDTO customerDTO){
         for(CustomerDTO customer : customers){
             if (customer.getId() == customerDTO.getId()){
@@ -32,7 +41,7 @@ public class CustomerController {
         return null;
     }
     @DeleteMapping(path = "delete/{id}")
-    public boolean deleteCustomer(@RequestBody int id){
+    public boolean deleteCustomer(@PathVariable("id") int id){
         for (CustomerDTO customerDTO : customers) {
             if (customerDTO.getId() == id){
                 customers.remove(customerDTO);
