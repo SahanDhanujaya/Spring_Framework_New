@@ -1,6 +1,6 @@
 package lk.ijse.controller;
 
-import org.springframework.stereotype.Component;
+
 import org.springframework.web.bind.annotation.*;
 
 @RestController

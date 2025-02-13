@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @RestController
 @EnableWebMvc
-@ComponentScan(basePackages = {"lk.ijse.bean","lk.ijse.controller"})
+@ComponentScan(basePackages = {"lk.ijse.controller"})
 public class WebAppConfig implements WebMvcConfigurer {
 
 }
