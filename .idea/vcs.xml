@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/09_Rest_Controller" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/I3_Spring_Boot" vcs="Git" />
   </component>
 </project>
